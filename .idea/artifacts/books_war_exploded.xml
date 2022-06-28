@@ -29,6 +29,7 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:5.3.21" />
           <element id="library" level="project" name="Maven: com.mchange:c3p0:0.9.5.2" />
           <element id="library" level="project" name="Maven: com.mchange:mchange-commons-java:0.2.20" />
+          <element id="library" level="project" name="Maven: org.aspectj:aspectjweaver:1.9.9.1" />
         </element>
       </element>
     </root>

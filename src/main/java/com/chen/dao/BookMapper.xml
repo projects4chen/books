@@ -13,7 +13,7 @@
     </delete>
 
     <update id="updateBook" parameterType="Books">
-        update ssm.books
+        update ssmbuild.books
         set bookName=#{bookName}, bookCounts=#{bookCounts}, detail=#{detail}
         where bookID=#{bookID};
     </update>

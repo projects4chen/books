@@ -73,7 +73,12 @@
             <artifactId>spring-jdbc</artifactId>
             <version>5.3.21</version>
         </dependency>
-
+        <!-- aop 织入包 -->
+        <dependency>
+            <groupId>org.aspectj</groupId>
+            <artifactId>aspectjweaver</artifactId>
+            <version>1.9.9.1</version>
+        </dependency>
     </dependencies>
 
 
