@@ -7,7 +7,7 @@
     <context:component-scan base-package="com.chen.service"/>
 
     <!-- 2.将我们所有的业务类注入到spring，可通过xml配置或注解 -->
-    <bean id="BookServiceImpl" class="com.chen.service.BookServiceImpl">
+    <bean id="bookServiceImpl" class="com.chen.service.BookServiceImpl">
         <property name="bookMapper" ref="bookMapper"/>
     </bean>
 

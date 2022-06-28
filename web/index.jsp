@@ -11,6 +11,8 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+  <h3>
+    <a href="${pageContext.request.contextPath}/book/allBook">进入书籍页面</a>
+  </h3>
   </body>
 </html>
