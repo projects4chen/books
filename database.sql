@@ -18,3 +18,16 @@ INSERT INTO `books`(`bookID`, `bookName`, `bookCounts`, `detail`) VALUES
                                                                       (3, 'Java', 5, '从进门到进牢');
 
 SELECT * FROM books;
+
+DROP TABLE IF EXISTS `user`;
+
+CREATE TABLE `user`(
+     `username` VARCHAR(20) NOT NULL COMMENT '用户名',
+     `password` VARCHAR(20) NOT NULL COMMENT '密码'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+INSERT INTO `user`(`username`, `password`) VALUES
+('tim', '123456'),
+('jack', '123456');
+
+SELECT * FROM user;

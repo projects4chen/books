@@ -18,5 +18,6 @@
     <!-- mapper绑定 -->
     <mappers>
         <mapper class="com.chen.dao.BookMapper"/>
+        <mapper class="com.chen.dao.UserMapper"/>
     </mappers>
 </configuration>

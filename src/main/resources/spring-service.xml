@@ -19,6 +19,9 @@
     <bean id="bookServiceImpl" class="com.chen.service.BookServiceImpl">
         <property name="bookMapper" ref="bookMapper"/>
     </bean>
+    <bean id="userServiceImpl" class="com.chen.service.UserServiceImpl">
+        <property name="userMapper" ref="userMapper"/>
+    </bean>
 
     <!-- 3. 声明式事务配置 -->
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
